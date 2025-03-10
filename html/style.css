@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&display=swap');
+
+.txt {
+    color: rgb(49, 88, 46);
+    font-family: "Big Shoulders", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.fmr {
+    width: 50rem;
+    height: auto;
+    border: solid 1px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn {
+    margin-top: 1rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: rgb(100, 121, 100);
+    border-radius: 1rem;
+}
+
+.btn:hover {
+    background-color: rgb(73, 118, 73);
+    cursor: pointer;
+}
